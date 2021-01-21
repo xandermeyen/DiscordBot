@@ -1,7 +1,7 @@
 module.exports = {
     name: 'youtube',
     description: "sends the youtube link",
-    execute(message, args){
+    execute(client, message, args){
 
 
         if(message.member.roles.cache.has('798992628883521586')){
