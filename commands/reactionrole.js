@@ -55,10 +55,10 @@ module.exports = {
                     await reaction.message.guild.members.cache.get(user.id).roles.add(LoLRole);
                 }
                 if(reaction.emoji.name == apexEmoji){
-                    await reaction.message.guild.members.cche.get(user.id).roles.add(ApexRole);
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(ApexRole);
                 }
                 if(reaction.emoji.name == gtaEmoji){
-                    await reaction.message.guild.members.cche.get(user.id).roles.add(GtaVRole);
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(GtaVRole);
                 }
             } else {
                 return;
